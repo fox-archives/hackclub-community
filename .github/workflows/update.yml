@@ -14,15 +14,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Update site
-		run: |
-			curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to DEST
-			./just copy
+      run: |
+         curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to DEST
+         ./just copy
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-			commit_message: Update "docs"
-			commit_options: '--no-verify'
-			commit_user_name: Updater # defaults to "GitHub Actions"
-			push_options: '--force'
-
-			# Optional: Disable dirty check and always try to create a commit and push
-			skip_dirty_check: true
+         commit_message: Update "docs"
+         commit_options: '--no-verify'
+         push_options: '--force'
+         skip_dirty_check: true
