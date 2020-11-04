@@ -74,7 +74,7 @@ Sometimes, it can be hard to find cool stuff in the Hack Club Community - here i
 ## Programming
 
 - Winter CTF (Coming Soon)
-- Summer CTF [CTFs](https://events.hackclub.com/hack-club-ctf) (Concluded)
+- Summer [CTF](https://events.hackclub.com/hack-club-ctf) (Concluded)
 
 ## Systems Programming
 
