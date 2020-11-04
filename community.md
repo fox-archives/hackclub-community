@@ -114,7 +114,7 @@ Sometimes, it can be hard to find cool stuff in the Hack Club Community - here i
 ## Linux
 
 - [#linux](https://app.slack.com/client/T0266FRGM/C0K3R2SD8) Slack Channel
-   - 208+ Members
+   - 209+ Members
 
 
 ## Slack
