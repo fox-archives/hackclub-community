@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -47,6 +48,13 @@ func convert(inputFile string, outputFile string) error {
 }
 
 func main() {
+	if os.Args[1] == "convert" {
+		err := convert("community.md", "community.html")
+		handle(err)
+		fmt.Println("Done")
+		return
+	}
+
 	err := convert("community.md", "community.html")
 	handle(err)
 

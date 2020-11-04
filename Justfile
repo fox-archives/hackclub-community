@@ -5,6 +5,9 @@ run:
 view:
 	glow community.md
 
+generate:
+	go run . convert
+
 copy:
 	#!/bin/sh -u
 	cp -r assets docs

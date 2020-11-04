@@ -16,6 +16,7 @@ jobs:
     - name: Update site
       run: |
          curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to .
+         ./just generate
          ./just copy
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
