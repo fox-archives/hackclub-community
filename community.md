@@ -119,6 +119,4 @@ Sometimes, it can be hard to find cool stuff in the Hack Club Community - here i
 
 ## Slack
 
-We have a lot of cool tools surrounding our slack
-
 - [Hackagotchi](https://github.com/hackagotchi/hackagotchi)
