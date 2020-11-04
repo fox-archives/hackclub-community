@@ -100,7 +100,7 @@ Sometimes, it can be hard to find cool stuff in the Hack Club Community - here i
 
 - [#chess](https://app.slack.com/client/T0266FRGM/C016AC672BF) Slack Channel
    - 46+ Members
-- Montly Chess Tournaments; see [events](https://events.hackclub.com)
+- Montly Chess Tournaments
    - [See](https://events.hackclub.com/monthly-chess-tournament) [past](https://events.hackclub.com/monthly-chess-tournament-1) [events](https://events.hackclub.com/hack-club-chess-tournament)
 
 ## Minecraft

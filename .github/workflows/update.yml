@@ -34,4 +34,4 @@ jobs:
          commit_message: Update "docs"
          commit_options: '--no-verify'
          push_options: '--force'
-         skip_dirty_check: true
+         skip_dirty_check: false
