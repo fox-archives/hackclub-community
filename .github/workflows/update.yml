@@ -19,14 +19,14 @@ jobs:
          ./just generate
          ./just copy
 
-         [ -z "$(git status --porcelain)" ] \
-          && echo https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/cancel \
-          && curl https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/cancel \
-          -X POST \
-          --header "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          --header "Content-Type: application/json" \
-          --header "User-Agent: actions/cancel-action" \
-            && echo attempted to cancel action
+         #[ -z "$(git status --porcelain)" ] \
+         # && echo https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/cancel \
+         # && curl https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/cancel \
+         # -X POST \
+         # --header "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+         # --header "Content-Type: application/json" \
+         # --header "User-Agent: actions/cancel-action" \
+         #   && echo attempted to cancel action
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
          commit_message: Update "docs"
