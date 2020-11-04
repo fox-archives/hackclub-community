@@ -1,5 +1,6 @@
 <head>
    <link rel="stylesheet" href="/assets/style.css"></link>
+   <link rel="stylesheet" href="/hackclub-community/assets/style.css"></link>
 </head>
 
 <header>
