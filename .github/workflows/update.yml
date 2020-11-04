@@ -25,7 +25,7 @@ jobs:
           -X POST \
           --header "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           --header "Content-Type: application/json" \
-          --header "User-Agent actions/cancel-action" \
+          --header "User-Agent: actions/cancel-action" \
             && echo attempted to cancel action
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
